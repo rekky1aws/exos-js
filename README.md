@@ -47,3 +47,6 @@ Le dossier `part2` contient les exercices de [JS1.md](https://framagit.org/popsc
 
 ### Exo 1
 Affiche le logo de wikipédia en appuyant sur le bouton grâce à une requête via fetch
+
+### Exo 2
+Affichage sous forme de cartes des students récupérés via fetch.
