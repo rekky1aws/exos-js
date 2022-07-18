@@ -1,0 +1,19 @@
+main {
+    margin: 15px;
+}
+
+input {
+    text-align: center;
+}
+
+.nombres-cumul {
+    margin: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

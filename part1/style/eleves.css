@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.enlever-eleve {
+    background-color: red;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.eleve {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    gap: 15px;
+}
+
+#liste {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

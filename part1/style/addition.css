@@ -1,0 +1,25 @@
+header {
+    margin-bottom: 25px;
+}
+
+div {
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: #fff;
+    color: #1D1D1D;
+    display: inline-block;
+    height: 1rem;
+    padding: 15px 10px;
+    min-width: 200px;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}

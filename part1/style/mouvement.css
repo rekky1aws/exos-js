@@ -1,0 +1,26 @@
+canvas {
+    border: 3px solid black;
+    background-color: #3d3d3d;
+    box-shadow: 0px 0px 24px 0px rgba(255,255,255,0.2);
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(255,255,255,0.2);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(255,255,255,0.2);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-loader {
+    display: none;
+}
+
+.gamepad-infos {
+    display: flex;
+}
+
+.gamepad-infos-section {
+    display: flex;
+    flex-direction: column;
+}

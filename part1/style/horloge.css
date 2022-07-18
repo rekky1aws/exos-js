@@ -1,0 +1,11 @@
+canvas {
+    border-radius: 50%;
+    border:2px dotted white;
+    position:absolute;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

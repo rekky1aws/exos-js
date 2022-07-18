@@ -1,0 +1,12 @@
+.dynamicStyle {
+    background-color: red;
+}
+
+main {
+    height: 300px;
+    width: 400px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

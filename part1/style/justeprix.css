@@ -1,0 +1,85 @@
+.more {
+    color: lime;
+    font-weight: bold;
+}
+
+.more::after {
+    content: ' ↑';
+}
+
+.less {
+    color: red;
+    font-weight: bold;
+}
+
+.less::after {
+    content: ' ↓';
+}
+
+.bravo {
+    animation: rainbow 2.5s linear infinite;
+    font-weight: bold;
+}
+
+#historique {
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 300px;
+    overflow-y: auto;
+}
+
+#prompt {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes rainbow{
+    100%,0%{
+        color: rgb(255,0,0);
+    }
+    8%{
+        color: rgb(255,127,0);
+    }
+    16%{
+        color: rgb(255,255,0);
+    }
+    25%{
+        color: rgb(127,255,0);
+    }
+    33%{
+        color: rgb(0,255,0);
+    }
+    41%{
+        color: rgb(0,255,127);
+    }
+    50%{
+        color: rgb(0,255,255);
+    }
+    58%{
+        color: rgb(0,127,255);
+    }
+    66%{
+        color: rgb(0,0,255);
+    }
+    75%{
+        color: rgb(127,0,255);
+    }
+    83%{
+        color: rgb(255,0,255);
+    }
+    91%{
+        color: rgb(255,0,127);
+    }
+}
