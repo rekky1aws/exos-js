@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	background-color: #1D1D1D;
 	font-family: Helvetica, sans-serif;
+	color: #EEE;
 }
 
 header {
@@ -16,4 +17,11 @@ a {
 	border-radius: 25px;
 	font-weight: bold;
 	margin: 10px;
+}
+
+input[type="text"] {
+	padding: 15px 10px;
+	border-radius: 25px;
+	border: none;
+	margin: 5px;
 }
