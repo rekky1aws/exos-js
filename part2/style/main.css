@@ -6,6 +6,9 @@ body {
 }
 
 header {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
 	margin: 25px;
 }
 
@@ -24,4 +27,20 @@ input[type="text"] {
 	border-radius: 25px;
 	border: none;
 	margin: 5px;
+}
+
+button {
+	padding: 15px 10px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	margin: 5px;
+}
+
+button:hover {
+	transform: scale(1.05);
+}
+
+button:active {
+	transform: scale(0.9);
 }
