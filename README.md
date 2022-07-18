@@ -4,7 +4,7 @@ Exercices en JavaScript pour s'entriner.
 Le fichier style/main.css gère le style commun a toutes les pages.
 
 ## part1
-Le dossier part1 contient les exercices de [JS1.md](https://framagit.org/popschool-lens/cours-philippe/-/blob/master/LENS9/JS1.md)
+Le dossier `part1` contient les exercices de [JS1.md](https://framagit.org/popschool-lens/cours-philippe/-/blob/master/LENS9/JS1.md)
 
 ### Index
 Page d'acceuil et exercices de base.
@@ -41,3 +41,9 @@ Cette page affiche la liste des élèves triées par ordre alphabétique décroi
 Cet exercice n'était pas présent dans les consignes de base du fichier JS1.md et a été rajouté par la suite.
 La page mouvement est une page sur laquelle on peut faire bouger un personnage avec les flèches sur le claviers et avec une manette.
 La manette est utilisable de manière analogique.
+
+## part2
+Le dossier `part2` contient les exercices de [JS1.md](https://framagit.org/popschool-lens/cours-philippe/-/blob/master/LENS9/JS2.md)
+
+### Exo 1
+Affiche le logo de wikipédia en appuyant sur le bouton grâce à une requête via fetch
