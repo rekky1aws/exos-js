@@ -23,9 +23,9 @@ async function fetchStudents ()
 		let cardFirstname = document.createElement('div');
 		cardFirstname.className = "card-firstname";
 
-		if (!alphabetChbx.checked && student["firstname.latin"] && student["lastname.latin"]) {
-			cardLastname.textContent = student["lastname.latin"];
-			cardFirstname.textContent = student["firstname.latin"];
+		if (!alphabetChbx.checked && student["firstname-latin"] && student["lastname-latin"]) {
+			cardLastname.textContent = student["lastname-latin"];
+			cardFirstname.textContent = student["firstname-latin"];
 		} else {
 			cardLastname.textContent = student.lastname;
 			cardFirstname.textContent = student.firstname;
