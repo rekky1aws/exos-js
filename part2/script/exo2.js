@@ -1,24 +1,38 @@
-const main = document.querySelector('main');
+const studentList = document.querySelector('#student-list');
+const alphabetChbx = document.querySelector('#alphabet');
+
+alphabetChbx.addEventListener('change', fetchStudents)
 
 async function fetchStudents ()
 {
 	const response = await fetch('https://pachyderme.net/students.json').then(response => response.json());
 	const students = response.students;
-	console.log(students);
+
+	studentList.innerHTML = null;
 
 	students.forEach( student => {
-		let card = document.createElement('div');
+
+		//console.log(student["firstname.latin"]);
+		let card = document.createElement('a');
+		card.href = "https://github.com/" + student.githubid;
 		card.className = "card";
 
 		let cardLastname = document.createElement('div');
 		cardLastname.className = "card-lastname";
-		cardLastname.textContent = student.lastname;
-		card.appendChild(cardLastname);
 
 		let cardFirstname = document.createElement('div');
 		cardFirstname.className = "card-firstname";
-		cardFirstname.textContent = student.firstname;
-		card.appendChild(cardFirstname);
+
+		if (!alphabetChbx.checked && student["firstname.latin"] && student["lastname.latin"]) {
+			cardLastname.textContent = student["lastname.latin"];
+			cardFirstname.textContent = student["firstname.latin"];
+		} else {
+			cardLastname.textContent = student.lastname;
+			cardFirstname.textContent = student.firstname;
+		}
+
+		card.appendChild(cardLastname);
+		card.appendChild(cardFirstname);	
 
 		let cardSex = document.createElement('img');
 		cardSex.className = "card-sex";
@@ -29,7 +43,7 @@ async function fetchStudents ()
 		}
 		card.appendChild(cardSex);
 
-		main.appendChild(card);
+		studentList.appendChild(card);
 	});
 }
 
