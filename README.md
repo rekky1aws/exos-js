@@ -54,3 +54,6 @@ Affichage sous forme de cartes des students récupérés via fetch.
 ### Exo 3
 Permet via le champ `<input>` et les boutons d'ajouter ou de supprimer le nom de la promo dans le localStorage.
 S'il y a un nom de promo dans le localStorage au chargement de la page, il est affiché en dessous des boutons.
+
+### Vibrate
+Sur cette page on peut tester le vibreur de notre appareil.
