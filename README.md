@@ -43,7 +43,7 @@ La page mouvement est une page sur laquelle on peut faire bouger un personnage a
 La manette est utilisable de manière analogique.
 
 ## part2
-Le dossier `part2` contient les exercices de [JS1.md](https://framagit.org/popschool-lens/cours-philippe/-/blob/master/LENS9/JS2.md)
+Le dossier `part2` contient les exercices de [JS2.md](https://framagit.org/popschool-lens/cours-philippe/-/blob/master/LENS9/JS2.md)
 
 ### Exo 1
 Affiche le logo de wikipédia en appuyant sur le bouton grâce à une requête via fetch
