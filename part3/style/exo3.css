@@ -1,0 +1,24 @@
+.add-button {
+	background-color: lime;
+}
+
+.rem-button {
+	background-color: red;
+	color: #EEE;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+main > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+}

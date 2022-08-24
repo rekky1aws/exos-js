@@ -1,0 +1,43 @@
+#student-list {
+	color: #EEE;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+}
+
+.card {
+	background-color: cornsilk;
+	color: black;
+	padding: 25px;
+	aspect-ratio: 2 / 3;
+	height: 150px;
+	width: auto;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-sex {
+	aspect-ratio: 1;
+	object-fit: contain;
+	height: 50px;
+	width: 50px;
+	margin: 10px;
+}
+
+.card-lastname {
+	font-weight: bold;
+	text-transform: uppercase;
+}
